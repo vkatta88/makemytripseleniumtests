@@ -22,6 +22,8 @@ public class MyBizTests extends Driver {
 	
 	String workingDir = System.getProperty("user.dir");
 	WebDriver driver;
+//	TestDataProps testProps = new TestDataProps();
+	
 	TestDataProps testProps = new TestDataProps();
 	Properties prop; 
 	Logger logObj = Logger.getLogger("MyBizTests");

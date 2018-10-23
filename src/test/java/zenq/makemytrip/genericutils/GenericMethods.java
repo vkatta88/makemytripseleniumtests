@@ -179,32 +179,38 @@ public int getMonthNumber(String month) {
 	public boolean deleteFilesInDirectory(String path) {
 //		 String path="D:\test"; 
 	    try{
-	    	File file = new File(path);	    
-		    boolean flag = false;
-		    File[] files = file.listFiles(); 
-		    if(files.length == 0) {
-		    	flag = true;
-		    	System.out.println("No FIles exists in the folder '" + path);
-		    }
-		    for (File f:files) 
-		    {
-		    	if (f.isFile() && f.exists()) 
-		        { 
-		    		f.delete();
-		    		System.out.println("successfully deleted");
-		    		flag = true;
-		        }else{
-		        	System.out.println("cant delete a file due to open or error");
-		        } 
-		    }
-					
-			if(flag) {
-				System.out.println("Files deleted successfully from folder " + path);
-				return true;
-			}else {
-				System.out.println("Files deleted successfully from folder " + path);
-				return false;
-			}
+	    	File file = new File(path);	 
+	    	if(file.exists()) {
+	    		boolean flag = false;
+			    File[] files = file.listFiles(); 
+			    if(files.length == 0) {
+			    	flag = true;
+			    	System.out.println("No FIles exists in the folder '" + path);
+			    }
+			    for (File f:files) 
+			    {
+			    	if (f.isFile() && f.exists()) 
+			        { 
+			    		f.delete();
+			    		System.out.println("successfully deleted");
+			    		flag = true;
+			        }else{
+			        	System.out.println("cant delete a file due to open or error");
+			        } 
+			    }
+						
+				if(flag) {
+					System.out.println("Files deleted successfully from folder " + path);
+					return true;
+				}else {
+					System.out.println("Files deleted successfully from folder " + path);
+					return false;
+				}
+	    	}
+	    	else {
+	    		return true;
+	    	}
+		    
 	    }catch(Exception ex) {
 	    	System.out.println("Unable to deleted files fom Folder '" + path + "'" );
 	    	return false;

@@ -11,8 +11,7 @@ public class TestDataProps {
 	Properties propObj;
 	String workingDir = System.getProperty("user.dir");
 	Logger logObj = Logger.getLogger("TestDataProps");
-	public Properties getProps(){
-		
+	public Properties getProps(){		
 		try{
 			File file = new File(workingDir + "\\testdata\\configs\\testdata.properties");
 			FileInputStream fis = new FileInputStream(file);		

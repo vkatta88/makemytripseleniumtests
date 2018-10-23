@@ -25,8 +25,7 @@ public class Driver {
 		}else {
 			System.out.println("Before Suite cOnfiguration failed at deleting files in 'screenshots' folder");
 			Assert.assertTrue(false);
-		}
-		
+		}		
 	}
 	
 	

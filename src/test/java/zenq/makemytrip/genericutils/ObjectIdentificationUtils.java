@@ -20,7 +20,7 @@ public class ObjectIdentificationUtils {
 		try
 		{
 			WebElement ele = driver.findElement(By.xpath("//" + tagName + "[contains(text(),'" + text + "')]"));
-			logObj.info("helo00000000000000 " + waitForWebElement(ele, 30));
+			logObj.info(waitForWebElement(ele, 30));
 			if(waitForWebElement(ele, 30)) {
 				return ele;
 			}else {

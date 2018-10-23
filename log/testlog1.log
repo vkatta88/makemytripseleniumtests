@@ -1,0 +1,18 @@
+2018-10-23 14:56:38,405 [main] ERROR ObjectIdentificationUtils - Waitedf for '10' and Unable to find element on the Page
+2018-10-23 14:56:38,416 [main] ERROR MyBizTests - Need Extra Details dialg not displyed
+2018-10-23 14:56:38,505 [main] INFO MyBizTests - VERIFYMYBIZSIGNUPFUCTIONLITY has success.
+2018-10-23 14:57:07,948 [main] INFO ObjectIdentificationUtils - true
+2018-10-23 14:57:08,554 [main] INFO ObjectIdentificationUtils - true
+2018-10-23 14:57:30,136 [main] INFO MakeMyTripTests - Alert Message is A room can have at max occupancy of 5.
+2018-10-23 14:57:30,179 [main] INFO MakeMyTripTests - VERIFYMAXOCCUPANCYPERROOMBUILDYOUROWNPKGFUNC has success.
+2018-10-23 14:57:47,473 [main] INFO ObjectIdentificationUtils - OCTOBER
+2018-10-23 14:57:47,493 [main] INFO ObjectIdentificationUtils - 2018
+2018-10-23 14:57:47,556 [main] INFO ObjectIdentificationUtils - true   trtrtuegfgirt
+2018-10-23 14:57:47,820 [main] INFO ObjectIdentificationUtils - NOVEMBER
+2018-10-23 14:57:47,840 [main] INFO ObjectIdentificationUtils - 2018
+2018-10-23 14:57:47,895 [main] INFO ObjectIdentificationUtils - true   trtrtuegfgirt
+2018-10-23 14:57:48,125 [main] INFO ObjectIdentificationUtils - DECEMBER
+2018-10-23 14:57:48,142 [main] INFO ObjectIdentificationUtils - 2019
+2018-10-23 14:58:04,513 [main] ERROR ObjectIdentificationUtils - Waitedf for '2' and Unable to find element on the Page
+2018-10-23 14:58:04,570 [main] INFO MakeMyTripTests - flights available and please go and buk desired flight
+2018-10-23 14:58:04,572 [main] INFO MakeMyTripTests - VERIFYSEARCHFLIGHTS has success.

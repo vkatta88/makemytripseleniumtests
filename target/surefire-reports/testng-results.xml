@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="124701" started-at="2018-10-23T09:26:02Z" finished-at="2018-10-23T09:28:07Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="124701" started-at="2018-10-23T09:26:02Z" finished-at="2018-10-23T09:28:07Z">
+      <class name="zenq.makemytrip.tests.MakeMyTripTests">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:zenq.makemytrip.tests.MakeMyTripTests@6d8a00e3]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-10-23T09:26:41Z" finished-at="2018-10-23T09:26:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:zenq.makemytrip.tests.MakeMyTripTests@6d8a00e3]" name="beforeMethod" is-config="true" duration-ms="18471" started-at="2018-10-23T09:26:41Z" finished-at="2018-10-23T09:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyMaxOccupancyPerRoomBuildYourOwnPkgFunc()[pri:0, instance:zenq.makemytrip.tests.MakeMyTripTests@6d8a00e3]" name="verifyMaxOccupancyPerRoomBuildYourOwnPkgFunc" duration-ms="30051" started-at="2018-10-23T09:27:00Z" finished-at="2018-10-23T09:27:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMaxOccupancyPerRoomBuildYourOwnPkgFunc -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:zenq.makemytrip.tests.MakeMyTripTests@6d8a00e3]" name="afterMethod" is-config="true" duration-ms="3716" started-at="2018-10-23T09:27:30Z" finished-at="2018-10-23T09:27:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMaxOccupancyPerRoomBuildYourOwnPkgFunc status=SUCCESS method=MakeMyTripTests.verifyMaxOccupancyPerRoomBuildYourOwnPkgFunc()[pri:0, instance:zenq.makemytrip.tests.MakeMyTripTests@6d8a00e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:zenq.makemytrip.tests.MakeMyTripTests@6d8a00e3]" name="beforeMethod" is-config="true" duration-ms="9841" started-at="2018-10-23T09:27:33Z" finished-at="2018-10-23T09:27:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifySearchFLights()[pri:0, instance:zenq.makemytrip.tests.MakeMyTripTests@6d8a00e3]" name="verifySearchFLights" duration-ms="20834" started-at="2018-10-23T09:27:43Z" finished-at="2018-10-23T09:28:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchFLights -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:zenq.makemytrip.tests.MakeMyTripTests@6d8a00e3]" name="afterMethod" is-config="true" duration-ms="3050" started-at="2018-10-23T09:28:04Z" finished-at="2018-10-23T09:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchFLights status=SUCCESS method=MakeMyTripTests.verifySearchFLights()[pri:0, instance:zenq.makemytrip.tests.MakeMyTripTests@6d8a00e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- zenq.makemytrip.tests.MakeMyTripTests -->
+      <class name="zenq.makemytrip.tests.MyBizTests">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:zenq.makemytrip.tests.MyBizTests@5ae9a829]" name="beforeSuite" is-config="true" duration-ms="34" started-at="2018-10-23T09:26:02Z" finished-at="2018-10-23T09:26:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:zenq.makemytrip.tests.MyBizTests@5ae9a829]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-10-23T09:26:02Z" finished-at="2018-10-23T09:26:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:zenq.makemytrip.tests.MyBizTests@5ae9a829]" name="beforeMethod" is-config="true" duration-ms="12038" started-at="2018-10-23T09:26:02Z" finished-at="2018-10-23T09:26:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyMYBiZSignUpFuctionlity()[pri:0, instance:zenq.makemytrip.tests.MyBizTests@5ae9a829]" name="verifyMYBiZSignUpFuctionlity" duration-ms="23524" started-at="2018-10-23T09:26:14Z" finished-at="2018-10-23T09:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMYBiZSignUpFuctionlity -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:zenq.makemytrip.tests.MyBizTests@5ae9a829]" name="afterMethod" is-config="true" duration-ms="3153" started-at="2018-10-23T09:26:38Z" finished-at="2018-10-23T09:26:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMYBiZSignUpFuctionlity status=SUCCESS method=MyBizTests.verifyMYBiZSignUpFuctionlity()[pri:0, instance:zenq.makemytrip.tests.MyBizTests@5ae9a829] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- zenq.makemytrip.tests.MyBizTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
